@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+</head>
+<body>
+ <h2>REGISTER</h2>
+        <!-- register new student -->
+         <form name="formreg" method="POST">
+            FIRST NAME<input
+                type="text"
+                name="fname"
+                id="fname"
+                placeholder="first name"
+                required
+            /><br />
+            LAST NAME<input
+                type="text"
+                name="lname"
+                id="newlname"
+                placeholder="last name"
+                required
+            /><br />
+            MIDDLE NAME<input
+                type="text"
+                name="mname"
+                id="mname"
+                placeholder="middle name"
+                required
+            /><br />
+            <h2>Previous school details</h2>
+            SCHOOL NAME<input
+                type="text"
+                name="sname"
+                id="sname"
+                placeholder="Previous school name"
+                required
+            /><br />
+            PREVIOUS CLASS<input
+                type="text"
+                name="pclass"
+                id="pclass"
+                placeholder="Previous class"
+                required
+            /><br />
+            GRADE<input
+                type="number"
+                name="grade"
+                id="newgrade"
+                placeholder="Grade"
+                required
+            /><br />
+            POSITION<input
+                type="text"
+                name="position"
+                id="position"
+                placeholder="position"
+            /><br />
+            <h2>Bio Data</h2>
+            STATE OF ORIGN
+            <input
+                type="text"
+                name="state"
+                id="state"
+                placeholder="State Of Origin"
+            /><br />
+            RESIDENTIAL ADDRESS
+            <input
+                type="text"
+                name="address"
+                id="address"
+                placeholder="Residential address"
+            /><br />
+            <button type="button" onclick="regStudent()">Sign up</button>
+            <input type="reset" value="cancel" id="button-cancel" />
+        </form> 
+        <script src="./app.js"></script>
+</body>
+</html>
